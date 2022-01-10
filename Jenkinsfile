@@ -6,7 +6,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git url:'https://github.com/justmeandopensource/playjenkins.git', branch:'development'
+        git url:'https://github.com/vishal43s/git-bash-dev.git', branch:'development'
       }
     }
 
